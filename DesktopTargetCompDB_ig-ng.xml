@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedDate="2018-04-12T16:19:25.2799384Z" Revision="1" SchemaVersion="1.2" Product="Desktop" BuildID="d3831750-24ad-f1a9-fbbb-7f302bb3c404" BuildInfo="rs4_release.17134.1.180410-1804" OSVersion="10.0.17134.1" BuildArch="AMD64" ReleaseType="Production" Type="Build" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate">
+  <Tags Type="Language">
+    <Tag Name="Language" Value="ig-ng" />
+    <Tag Name="UpdateType" Value="Canonical" />
+  </Tags>
+  <Features>
+    <Feature Type="LIP" FeatureID="Language.UI.Client~ig-ng" FMID="MSDL" Group="Microsoft">
+      <Packages>
+        <Package ID="amd64_Microsoft-Windows-Client-LanguagePack-Package_ig-ng" PackageType="FeaturePackage" />
+      </Packages>
+    </Feature>
+  </Features>
+  <Packages>
+    <Package ID="amd64_Microsoft-Windows-Client-LanguagePack-Package_ig-ng" Version="10.0.17134.1">
+      <SatelliteInfo>
+        <DeclareInfo>
+          <Declare Type="language" Value="ig-ng" />
+        </DeclareInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="/r49cIymrMn9deVcOswUoiSmLGG2ocR1zhyy9fJXR2Q=" PayloadSize="5256708" Path="UUP\Desktop\EditionPackages\ig-ng\Client\amd64fre_Client_ig-ng_lp.esd" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+  </Packages>
+</CompDB>
